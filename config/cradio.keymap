@@ -186,7 +186,7 @@
         };
 
         c16 {
-            bindings = <&none>;
+            bindings = <&sl 1>;
             key-positions = <22 23>;
             timeout-ms = <35>;
         };
