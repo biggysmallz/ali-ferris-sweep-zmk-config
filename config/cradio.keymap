@@ -241,7 +241,7 @@
 
         c25 {
             bindings = <&sl 4>;
-            key-positions = <24 14>;
+            key-positions = <14 24>;
             timeout-ms = <40>;
         };
 
