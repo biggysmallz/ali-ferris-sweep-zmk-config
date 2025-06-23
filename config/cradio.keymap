@@ -115,13 +115,13 @@
         c5 {
             bindings = <&kp ESC>;
             key-positions = <2 3>;
-            timeout-ms = <35>;
+            timeout-ms = <30>;
         };
 
         c6 {
             bindings = <&sk LSHIFT>;
             key-positions = <2 13>;
-            timeout-ms = <35>;
+            timeout-ms = <30>;
         };
 
         c7 {
@@ -139,55 +139,55 @@
         c9 {
             bindings = <&kp CARET>;
             key-positions = <6 7>;
-            timeout-ms = <35>;
+            timeout-ms = <30>;
         };
 
         c10 {
             bindings = <&kp DOLLAR>;
             key-positions = <7 8>;
-            timeout-ms = <35>;
+            timeout-ms = <30>;
         };
 
         c11 {
             bindings = <&kp PAGE_UP>;
             key-positions = <3 4>;
-            timeout-ms = <35>;
+            timeout-ms = <30>;
         };
 
         c12 {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <5 6>;
-            timeout-ms = <35>;
+            timeout-ms = <30>;
         };
 
         c13 {
             bindings = <&sk RSHIFT>;
             key-positions = <7 16>;
-            timeout-ms = <35>;
+            timeout-ms = <30>;
         };
 
         c14 {
             bindings = <&sl 1>;
             key-positions = <26 27>;
-            timeout-ms = <35>;
+            timeout-ms = <30>;
         };
 
         c15 {
             bindings = <&sl 2>;
             key-positions = <27 28>;
-            timeout-ms = <35>;
+            timeout-ms = <30>;
         };
 
         c16 {
             bindings = <&sl 1>;
             key-positions = <22 23>;
-            timeout-ms = <35>;
+            timeout-ms = <30>;
         };
 
         c17 {
             bindings = <&sl 2>;
             key-positions = <21 22>;
-            timeout-ms = <35>;
+            timeout-ms = <30>;
         };
 
         c18 {
@@ -198,38 +198,26 @@
 
         c19 {
             bindings = <&kp BACKSPACE>;
-            key-positions = <13 4>;
-            timeout-ms = <35>;
+            key-positions = <23 24>;
+            timeout-ms = <30>;
+            layers = <0>;
         };
 
         c20 {
             bindings = <&kp CAPSLOCK>;
             key-positions = <1 2>;
-            timeout-ms = <35>;
+            timeout-ms = <30>;
         };
 
         c21 {
             bindings = <&kp ENTER>;
-            key-positions = <3 14>;
-            timeout-ms = <35>;
-        };
-
-        C22 {
-            bindings = <&kp TAB>;
-            key-positions = <1 8>;
-            timeout-ms = <40>;
-        };
-
-        c23 {
-            bindings = <&kp SPACE>;
-            key-positions = <3 6>;
-            timeout-ms = <40>;
+            key-positions = <14 13>;
+            timeout-ms = <30>;
         };
 
         c24 {
             bindings = <&sl 3>;
             key-positions = <30 31>;
-            timeout-ms = <40>;
         };
 
         c26 {
@@ -241,6 +229,34 @@
             bindings = <&sl 4>;
             key-positions = <24 14>;
             timeout-ms = <40>;
+        };
+
+        c22 {
+            bindings = <&kp PIPE>;
+            key-positions = <13 14>;
+            timeout-ms = <30>;
+            layers = <1>;
+        };
+
+        c23 {
+            bindings = <&kp TILDE>;
+            key-positions = <23 24>;
+            timeout-ms = <30>;
+            layers = <1>;
+        };
+
+        c27 {
+            bindings = <&kp END>;
+            key-positions = <13 14>;
+            timeout-ms = <30>;
+            layers = <2>;
+        };
+
+        c28 {
+            bindings = <&kp DELETE>;
+            key-positions = <23 24>;
+            timeout-ms = <30>;
+            layers = <2>;
         };
     };
 
