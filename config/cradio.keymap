@@ -231,13 +231,6 @@
             timeout-ms = <40>;
         };
 
-        c22 {
-            bindings = <&kp PIPE>;
-            key-positions = <13 14>;
-            timeout-ms = <30>;
-            layers = <1>;
-        };
-
         c23 {
             bindings = <&kp TILDE>;
             key-positions = <23 24>;
@@ -245,16 +238,23 @@
             layers = <1>;
         };
 
-        c27 {
-            bindings = <&kp END>;
-            key-positions = <13 14>;
+        c28 {
+            bindings = <&kp DELETE>;
+            key-positions = <23 24>;
             timeout-ms = <30>;
             layers = <2>;
         };
 
-        c28 {
-            bindings = <&kp DELETE>;
-            key-positions = <23 24>;
+        c29 {
+            bindings = <&kp PIPE>;
+            key-positions = <13 14>;
+            timeout-ms = <30>;
+            layers = <1>;
+        };
+
+        c30 {
+            bindings = <&kp END>;
+            key-positions = <13 14>;
             timeout-ms = <30>;
             layers = <2>;
         };
