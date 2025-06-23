@@ -211,7 +211,7 @@
 
         c21 {
             bindings = <&kp ENTER>;
-            key-positions = <14 13>;
+            key-positions = <13 24>;
             timeout-ms = <30>;
         };
 
@@ -247,14 +247,14 @@
 
         c29 {
             bindings = <&kp PIPE>;
-            key-positions = <13 14>;
+            key-positions = <13 24>;
             timeout-ms = <30>;
             layers = <1>;
         };
 
         c30 {
             bindings = <&kp END>;
-            key-positions = <13 14>;
+            key-positions = <13 24>;
             timeout-ms = <30>;
             layers = <2>;
         };
