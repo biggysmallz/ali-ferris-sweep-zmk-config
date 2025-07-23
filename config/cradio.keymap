@@ -182,7 +182,7 @@
         };
 
         c24 {
-            bindings = <&sl 3>;
+            bindings = <&sl 4>;
             key-positions = <30 31>;
         };
 
